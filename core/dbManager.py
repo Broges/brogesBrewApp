@@ -14,7 +14,7 @@ class DB:
     def insert_db_person(self):
         connection = psycopg2.connect(host = "localhost",      #connects to the local database with correct credentials
                                     user = "postgres",      #superuser
-                                    password = "4sBAert6ZPLiohn5esrRhjL4G",
+                                    password = "x",
                                     database = "analysis",
                                     port = "5432")  #database is listening on this port
 
@@ -38,7 +38,7 @@ class DB:
     def insert_db_drinks(self):
         connection = psycopg2.connect(host = "localhost",                   #connects to the local database with correct credentials
                                     user = "postgres",
-                                    password = "4sBAert6ZPLiohn5esrRhjL4G",
+                                    password = "x",
                                     database = "analysis",
                                     port = "5432")
 
@@ -64,7 +64,7 @@ class DB:
         page_count=1
         connection = psycopg2.connect(host = "localhost",
                                     user = "postgres",
-                                    password = "4sBAert6ZPLiohn5esrRhjL4G",
+                                    password = "x",
                                     database = "analysis",
                                     port = "5432")                            
         try:
@@ -103,7 +103,7 @@ class DB:
         page_count=1 #var used to count how many of the drinks have been printed
         connection = psycopg2.connect(host = "localhost",   #connects to database with
                                     user = "postgres",      #correct credentials
-                                    password = "4sBAert6ZPLiohn5esrRhjL4G",
+                                    password = "x",
                                     database = "analysis",  #
                                     port = "5432")          #                 
         try:
@@ -146,7 +146,7 @@ class DB:
     def returnPeople(self):
         connection = psycopg2.connect(host = "localhost",
                                     user = "postgres",
-                                    password = "4sBAert6ZPLiohn5esrRhjL4G",
+                                    password = "x",
                                     database = "analysis",
                                     port = "5432")                            
         try:
@@ -167,7 +167,7 @@ class DB:
     def returnDrinks(self):
         connection = psycopg2.connect(host = "localhost",
                                     user = "postgres",
-                                    password = "4sBAert6ZPLiohn5esrRhjL4G",
+                                    password = "x",
                                     database = "analysis",
                                     port = "5432")                            
         try:
