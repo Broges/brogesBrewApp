@@ -1,0 +1,7 @@
+pyvenv.cfg
+Scripts/
+Lib/
+.vscode/
+__pycache__/
+.devcontainer/
+.devcontainer
